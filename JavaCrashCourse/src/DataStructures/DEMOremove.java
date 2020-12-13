@@ -4,8 +4,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 class MyDS {
-
-		LinkedList<Integer> ls= new LinkedList<>();
+	
+	LinkedList<Integer> ls= new LinkedList<>();
 		
 		  void addon(int x) {
 			 ls.add(x);
@@ -25,6 +25,7 @@ class MyDS {
 		}
 		 
 	}
+
 public class DEMOremove{
 	public static void main(String[] args) {
 		
