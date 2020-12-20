@@ -1,6 +1,7 @@
 package SetsPratice;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
@@ -13,6 +14,7 @@ public class IntersectionofTwoArrayswithLinkedset {
 		LinkedHashSet<Integer> ls1= new LinkedHashSet<>(Arrays.asList(wrapper1));
 		LinkedHashSet<Integer> ls2= new LinkedHashSet<>(Arrays.asList(wrapper2));
 		System.out.println(ls1);
+		System.out.println();
 		System.out.println(ls2);
 		ls1.retainAll(ls2);
 		System.out.println(ls2);
